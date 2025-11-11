@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentasi Kimia: Penyangga & Hidrolisis</title>
+    <!-- Memuat Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Memuat Google Font (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Style kustom untuk tag code */
+        code {
+            background-color: #e5e7eb; /* bg-gray-200 */
+            color: #1f2937; /* text-gray-800 */
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-100 min-h-screen p-6 sm:p-12">
+    <main class="max-w-6xl mx-auto">
+        
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">
+                Ringkasan Materi Kimia
+            </h1>
+            <p class="text-2xl text-gray-700">
+                Larutan Penyangga & Hidrolisis Garam
+            </p>
+        </header>
+
+        <!-- Kontainer untuk "Slide" -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Slide 1: Judul -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-indigo-700 text-white p-5">
+                    <h2 class="text-xl font-bold">1: Judul</h2>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Larutan Penyangga & Hidrolisis Garam</h3>
+                    <p class="text-gray-600">Memahami Keseimbangan pH dalam Larutan</p>
+                    <p class="text-sm text-gray-500 mt-2">(Kelas 12 Kimia)</p>
+                </div>
+            </div>
+
+            <!-- Slide 2: Apa Itu Larutan Penyangga? -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-indigo-600 text-white p-5">
+                    <h2 class="text-xl font-bold">2: Definisi Penyangga</h2>
+                </div>
+                <div class="p-6 space-y-3">
+                    <p class="text-gray-700">
+                        <strong class="text-indigo-700">Definisi:</strong> Larutan yang mampu <strong>mempertahankan nilai pH</strong>-nya ketika ditambahkan sedikit asam kuat, basa kuat, atau pengenceran.
+                    </p>
+                    <p class="text-gray-700">
+                        <strong class="text-indigo-700">Analogi:</strong> Seperti "shockbreaker" pada kendaraan yang meredam guncangan, larutan penyangga "meredam" perubahan pH.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slide 3: Komponen Larutan Penyangga -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-indigo-600 text-white p-5">
+                    <h2 class="text-xl font-bold">3: Komponen Penyangga</h2>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div>
+                        <h4 class="text-lg font-semibold text-indigo-700">1. Penyangga Asam</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-1">
+                            <li>Terdiri dari: <strong>Asam Lemah (AL)</strong> dan <strong>Basa Konjugasinya</strong>.</li>
+                            <li>Contoh: <code>CH₃COOH</code> + <code>CH₃COO⁻</code> (dari <code>CH₃COONa</code>)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-indigo-700">2. Penyangga Basa</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-1">
+                            <li>Terdiri dari: <strong>Basa Lemah (BL)</strong> dan <strong>Asam Konjugasinya</strong>.</li>
+                            <li>Contoh: <code>NH₃</code> + <code>NH₄⁺</code> (dari <code>NH₄Cl</code>)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Bagaimana Penyangga Bekerja? -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300 md:col-span-2">
+                <div class="bg-purple-600 text-white p-5">
+                    <h2 class="text-xl font-bold">4: Cara Kerja Penyangga (Penyangga Asam)</h2>
+                </div>
+                <div class="p-6 space-y-3">
+                    <p class="text-gray-700"><strong>Prinsip:</strong> Komponen penyangga akan menetralkan asam/basa yang ditambahkan.</p>
+                    <div>
+                        <p class="text-gray-700 font-semibold">Jika ditambah <strong>Asam (H⁺)</strong>:</p>
+                        <p class="mt-1"><code class="text-sm">CH₃COO⁻(aq) + H⁺(aq) ⇌ CH₃COOH(aq)</code></p>
+                    </div>
+                    <div>
+                        <p class="text-gray-700 font-semibold">Jika ditambah <strong>Basa (OH⁻)</strong>:</p>
+                        <p class="mt-1"><code class="text-sm">CH₃COOH(aq) + OH⁻(aq) ⇌ CH₃COO⁻(aq) + H₂O(l)</code></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Perhitungan pH Penyangga -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-purple-600 text-white p-5">
+                    <h2 class="text-xl font-bold">5: Perhitungan pH Penyangga</h2>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div>
+                        <h4 class="text-lg font-semibold text-purple-700">Penyangga Asam</h4>
+                        <p class="mt-1"><code>[H⁺] = Ka * (mol AL / mol BK)</code></p>
+                        <p class="mt-1"><code>pH = pKa + log ([BK] / [AL])</code></p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-purple-700">Penyangga Basa</h4>
+                        <p class="mt-1"><code>[OH⁻] = Kb * (mol BL / mol AK)</code></p>
+                        <p class="mt-1"><code>pOH = pKb + log ([AK] / [BL])</code></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTOH SOAL PENYANGGA (BARU) -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-purple-700 text-white p-5">
+                    <h2 class="text-xl font-bold">Contoh Soal Penyangga</h2>
+                </div>
+                <div class="p-6 space-y-3">
+                    <p class="text-gray-700 font-semibold">
+                        Jika 50 mL NaOH 0.1 M dicampur dengan 100 mL CH₃COOH 0.1 M (Ka = 10⁻⁵), berapakah pH larutan?
+                    </p>
+                    <div class="text-sm text-gray-800 bg-gray-50 p-3 rounded-lg">
+                        <p><strong>1. Hitung mol:</strong></p>
+                        <ul class="list-disc list-inside ml-2">
+                            <li>mol NaOH = 50 mL * 0.1 M = 5 mmol</li>
+                            <li>mol CH₃COOH = 100 mL * 0.1 M = 10 mmol</li>
+                        </ul>
+                        <p class="mt-2"><strong>2. Reaksi (MRS):</strong></p>
+                        <p class="text-xs"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NaOH + CH₃COOH → CH₃COONa + H₂O</code><br>
+                           <code>M: 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-</code><br>
+                           <code>R: -5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+5</code><br>
+                           <code>S: 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</code>
+                        </p>
+                        <p class="mt-2"><strong>3. Identifikasi:</strong></p>
+                        <p>Sisa 5 mmol Asam Lemah (CH₃COOH) dan 5 mmol Basa Konjugasi (CH₃COONa). Ini adalah <strong>Buffer Asam</strong>.</p>
+                        <p class="mt-2"><strong>4. Hitung pH:</strong></p>
+                        <p><code>[H⁺] = Ka * (mol AL / mol BK)</code><br>
+                           <code>[H⁺] = 10⁻⁵ * (5 / 5) = 10⁻⁵</code><br>
+                           <code>pH = -log(10⁻⁵) = 5</code>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Penyangga dalam Kehidupan -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-blue-600 text-white p-5">
+                    <h2 class="text-xl font-bold">6: Penyangga dalam Kehidupan</h2>
+                </div>
+                <div class="p-6">
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><strong>Sistem Penyangga Darah</strong> (pH 7.4)
+                            <ul class="list-circle list-inside ml-4">
+                                <li><code>H₂CO₃ / HCO₃⁻</code></li>
+                                <li><code>H₂PO₄⁻ / HPO₄²⁻</code></li>
+                            </ul>
+                        </li>
+                        <li><strong>Air Liur</strong> (Menjaga pH mulut)</li>
+                        <li><strong>Industri:</strong> Obat-obatan, kosmetik, limbah.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Slide 7: Transisi: Apa Itu Garam? -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-blue-600 text-white p-5">
+                    <h2 class="text-xl font-bold">7: Transisi: Apa Itu Garam?</h2>
+                </div>
+                <div class="p-6 space-y-3">
+                    <p class="text-gray-700">Garam adalah senyawa ionik dari reaksi netralisasi Asam dan Basa.</p>
+                    <p class="text-center bg-gray-100 p-2 rounded">
+                        <code>HCl + NaOH → NaCl + H₂O</code>
+                    </p>
+                    <p class="text-gray-700 italic text-center mt-2">
+                        Apakah semua garam bersifat netral (pH 7)?
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slide 8: Hidrolisis Garam -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-blue-600 text-white p-5">
+                    <h2 class="text-xl font-bold">8: Hidrolisis Garam</h2>
+                </div>
+                <div class="p-6 space-y-3">
+                    <p class="text-gray-700">
+                        <strong class="text-blue-700">Definisi:</strong> Reaksi ion-ion garam (yang berasal dari asam/basa lemah) dengan air, yang menyebabkan perubahan pH larutan.
+                    </p>
+                    <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-3 rounded">
+                        <strong>Kunci:</strong> Hanya ion dari komponen <strong>LEMAH</strong> yang terhidrolisis.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Jenis Hidrolisis (1) -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-blue-700 text-white p-5">
+                    <h2 class="text-xl font-bold">9: Jenis Hidrolisis (1)</h2>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div>
+                        <h4 class="text-lg font-semibold text-blue-700">1. Asam Kuat + Basa Kuat</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-1">
+                            <li>Contoh: <code>NaCl</code>, <code>K₂SO₄</code></li>
+                            <li class="font-bold text-gray-800">Sifat: NETRAL (pH = 7)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-blue-700">2. Asam Kuat + Basa Lemah</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-1">
+                            <li>Contoh: <code>NH₄Cl</code>, <code>CuSO₄</code></li>
+                            <li><code>NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺</code> (melepas H⁺)</li>
+                            <li class="font-bold text-red-600">Sifat: ASAM (pH < 7)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 10: Jenis Hidrolisis (2) -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-blue-700 text-white p-5">
+                    <h2 class="text-xl font-bold">10: Jenis Hidrolisis (2)</h2>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div>
+                        <h4 class="text-lg font-semibold text-blue-700">3. Asam Lemah + Basa Kuat</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-1">
+                            <li>Contoh: <code>CH₃COONa</code>, <code>KCN</code></li>
+                            <li><code>CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻</code> (melepas OH⁻)</li>
+                            <li class="font-bold text-blue-600">Sifat: BASA (pH > 7)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-blue-700">4. Asam Lemah + Basa Lemah</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-1">
+                            <li>Contoh: <code>NH₄CH₃COO</code></li>
+                            <li class="font-bold text-purple-600">Sifat: Tergantung Ka vs Kb</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Rumus Perhitungan Hidrolisis -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-blue-700 text-white p-5">
+                    <h2 class="text-xl font-bold">11: Rumus Hidrolisis</h2>
+                </div>
+                <div class="p-6 space-y-3">
+                    <div>
+                        <h4 class="text-base font-semibold text-red-600">Garam Asam (AK + BL)</h4>
+                        <p class="mt-1"><code>[H⁺] = √( (Kw/Kb) * [Kation] )</code></p>
+                    </div>
+                    <div>
+                        <h4 class="text-base font-semibold text-blue-600">Garam Basa (AL + BK)</h4>
+                        <p class="mt-1"><code>[OH⁻] = √( (Kw/Ka) * [Anion] )</code></p>
+                    </div>
+                    <div>
+                        <h4 class="text-base font-semibold text-purple-600">Garam Total (AL + BL)</h4>
+                        <p class="mt-1"><code>[H⁺] = √( (Kw * Ka) / Kb )</code></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTOH SOAL HIDROLISIS (BARU) -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="bg-blue-800 text-white p-5">
+                    <h2 class="text-xl font-bold">Contoh Soal Hidrolisis</h2>
+                </div>
+                <div class="p-6 space-y-3">
+                    <p class="text-gray-700 font-semibold">
+                        Jika Kb NH₃ = 10⁻⁵, hitung pH larutan NH₄Cl 0.01 M! (Kw = 10⁻¹⁴)
+                    </p>
+                    <div class="text-sm text-gray-800 bg-gray-50 p-3 rounded-lg">
+                        <p><strong>1. Identifikasi Garam:</strong></p>
+                        <p><code>NH₄Cl</code> berasal dari Basa Lemah (NH₃) dan Asam Kuat (HCl). Sifatnya <strong>Asam</strong>.</p>
+                        
+                        <p class="mt-2"><strong>2. Ion Terhidrolisis:</strong></p>
+                        <p>Ion dari yang lemah: <code>NH₄⁺</code>.</p>
+                        
+                        <p class="mt-2"><strong>3. Rumus:</strong></p>
+                        <p>Gunakan rumus garam asam:</p>
+                        <p><code>[H⁺] = √( (Kw/Kb) * [Kation] )</code></p>
+                        
+                        <p class="mt-2"><strong>4. Hitung [H⁺]:</strong></p>
+                        <p><code>[H⁺] = √( (10⁻¹⁴ / 10⁻⁵) * 0.01 )</code><br>
+                           <code>[H⁺] = √( (10⁻⁹) * 10⁻² )</code><br>
+                           <code>[H⁺] = √( 10⁻¹¹ ) = 10⁻⁵·⁵</code>
+                        </p>
+                        <p class="mt-2"><strong>5. Hitung pH:</strong></p>
+                        <p><code>pH = -log(10⁻⁵·⁵) = 5.5</code></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Kesimpulan -->
+            <div class="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300 md:col-span-2 lg:col-span-1">
+                <div class="bg-green-600 text-white p-5">
+                    <h2 class="text-xl font-bold">12: Kesimpulan</h2>
+                </div>
+                <div class="p-6">
+                    <ul class="list-disc list-inside space-y-3 text-gray-700">
+                        <li>
+                            <strong class="text-indigo-700">Larutan Penyangga:</strong>
+                            Menjaga pH. Dibuat dari campuran Asam/Basa Lemah + Konjugasinya.
+                        </li>
+                        <li>
+                            <strong class="text-blue-700">Hidrolisis Garam:</strong>
+                            Reaksi ion garam (dari komponen lemah) dengan air. Sifatnya bisa Asam, Basa, atau Netral.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div> <!-- end grid -->
+    </main>
+</body>
+</html>
